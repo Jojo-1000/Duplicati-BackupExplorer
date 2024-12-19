@@ -306,13 +306,6 @@
             return reader.GetInt32(1);
         }
 
-
-        public void InitBlocksCache()
-        {
-            CheckConnectionNotNull();
-
-        }
-
         public void InitBlocksetCache()
         {
             CheckConnectionNotNull();
